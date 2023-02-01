@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
-
-
-
 import './Navbar.css';
 
 function Navbar() {
@@ -32,9 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo ' onClick={closeMobileMenu}>
-          
-          <img src={process.env.PUBLIC_URL + '/images/portfolio-logo-website.png'} alt="logo" />
-           
+          <img src={'../images/portfolio-logo-website.png'} />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
