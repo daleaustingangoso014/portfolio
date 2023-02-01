@@ -9,6 +9,7 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 import {BrowserRouter as Router, Route, Routes, Switch } from "react-router-dom";
 import HeroSection from './components/HeroSection';
+import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {
@@ -24,10 +25,21 @@ function App() {
   
    <Router>
       <div className="app">
+      
+      <div className="row">
+      <div className="page-navigation column">
       <Navbar />
-        <HeroSection></HeroSection>
+      </div>
+      <div className="page-content column">
+      <HeroSection />
+      <HeroSection />
+      <HeroSection />
+      <HeroSection />
+      <Footer />
 
-        
+      </div>
+      </div>
+
       </div>
     </Router>
    </>
