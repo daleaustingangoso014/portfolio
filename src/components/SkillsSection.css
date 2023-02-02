@@ -1,0 +1,175 @@
+.skills-main-section-container{
+ 
+  background-color: #1a1c2a;
+}
+.skill-blimp-description p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.skills-quote-container {
+  position: relative;
+  padding-top: 15px;
+}
+.skill-blimp-description a {
+  color: #f6c783;
+  text-decoration: none;
+}
+.skill-blimp h2,
+.skill-blimp-description h2{
+    padding-bottom: 15px;
+}
+.skill-blimp-description {
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+}
+.skills-main-section-inner {
+    display: flex;
+}
+.skill-blimp-description,
+.container.skill-blimp {
+    float: left;
+    width: 50%;
+}
+.skillbar-percent {
+    color: #000 !important;
+}
+.skills-main-section-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+  }
+    .skill-blimp h2,
+    .skill-blimp h3{
+      color: #fff;
+    }
+   .skill-blimp {
+    /* width: 450px;
+    height: 250px;
+    display: flex; */
+    flex-direction: column;
+    justify-content: center;
+  }
+   .skill-blimp .flex {
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    padding-bottom: 25px;
+  }
+   .skill-blimp .bar {
+    width: 250px;
+    height: 30px;
+    border: 1px solid blanchedalmond;
+    margin: 0 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+  }
+   .skill-blimp .inside1 {
+    border-radius: 30px;
+    width: 90%;
+    height: 29px;
+    background: #f6c783 !important;
+    animation: slide1 2s ease-in-out;
+  }
+   .skill-blimp .inside2 {
+    border-radius: 30px;
+    width: 80%;
+    height: 29px;
+    background: #f6c783 !important;
+    animation: slide2 2s ease-in-out;
+  }
+.skill-blimp .inside3 {
+    border-radius: 30px;
+    width: 55%;
+    height: 29px;
+    background: #f6c783 !important;
+    animation: slide3 2s ease-in-out;
+  }
+  .small-tag-heading {
+    color: #f6c783;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+  @keyframes slide1 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 90%;
+    }
+  }
+  @keyframes slide2 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 80%;
+    }
+  }
+  @keyframes slide3 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 55%;
+    }
+  }
+
+
+  .contact-me-heading {
+    margin-top: 25px;
+}
+
+.testdome-certificate-stamp {
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  width: 185px;
+  height: 120px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  text-align: left;
+  padding: 10px;
+  position: relative;
+  box-sizing: border-box;
+  text-transform: uppercase; }
+ 
+  .certificates-item {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .certificates-wrapper {
+    display: flex;
+  }
+
+  .testdome-certificate-stamp.silver {
+    background-image: url("/public/images/stamp-silver.png"); }
+  .testdome-certificate-stamp span {
+    display: block;
+    color: #ffffff;
+    font-size: 11px;
+    text-decoration: none;
+    margin-bottom: 5px; }
+    .testdome-certificate-stamp span.testdome-certificate-name {
+      font-size: 14px;
+      text-transform: none; }
+    .testdome-certificate-stamp span.testdome-certificate-card-logo {
+      position: absolute;
+      bottom: 5px; }
+  .testdome-certificate-stamp:hover {
+    text-decoration: none; }
+    .testdome-certificate-stamp:hover span {
+      text-decoration: none; }
+
+      @media only screen and (max-width: 600px) {
+        .certificates-wrapper {
+          display: block;
+        }
+        .certificates-item {
+          margin: 5px;
+        }
+      }      

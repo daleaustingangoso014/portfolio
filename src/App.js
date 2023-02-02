@@ -9,9 +9,12 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 import {BrowserRouter as Router, Route, Routes, Switch } from "react-router-dom";
 import HeroSection from './components/HeroSection';
+import SkillsSection from './components/SkillsSection';
 import Footer from './components/Footer';
 
 function App() {
+
+  
   useEffect(() => {
     AOS.init();
    
@@ -19,22 +22,99 @@ function App() {
   return (
     
    <>
+
+   
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>var stylesheet = "https://app.testdome.com/content/source/stylesheets/embed.css", link = document.createElement("link"); link.href = stylesheet, link.type = "text/css", link.rel = "stylesheet", link.media = "screen,print", document.getElementsByTagName("head")[0].appendChild(link);</script>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
    <Router>
       <div className="app">
+        
       
       <div className="row">
       <div className="page-navigation column">
+      
+      
       <Navbar />
       </div>
       <div className="page-content column">
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
+      
+
+      {/* <HeroSection /> */}
+      {/* <SkillsSection /> */}
+      
+{/* Page Transition - Start */}
+<div class="page__style projects">
+  <div class="page__description">
+    <div id="projects">
+
+    <HeroSection />
+
+    </div>
+  </div>
+</div>
+
+<div class="page__style skills">
+  <div class="page__description">
+    <div id="skills">
+      
+    <SkillsSection />
+
+    </div>
+  </div>
+</div>
+
+
+<div class="page__style about">
+  <div class="page__description">
+    <div id="about">
+      <h1>About</h1>
+
+      <button class="btn_nav projects_link">Projects</button>
+      <button class="btn_nav skills_link">Skills</button>
+      <button class="btn_nav home_link">Home</button>
+      <button class="btn_nav about_link">About</button>
+      <button class="btn_nav contact_link">Contact</button>
+
+      <p>Thanks <a href="https://codyhouse.co/gem/animated-page-transition/" target="_blank">codyhouse.co</a></p>
+
+    </div>
+  </div>
+</div>
+
+<div class="page__style contact">
+  <div class="page__description">
+    <div id="contact">
+      <h1>Contact</h1>
+
+      <button class="btn_nav projects_link">Projects</button>
+      <button class="btn_nav skills_link">Skills</button>
+      <button class="btn_nav home_link">Home</button>
+      <button class="btn_nav about_link">About</button>
+      <button class="btn_nav contact_link">Contact</button>
+
+      <p>Thanks <a href="https://codyhouse.co/gem/animated-page-transition/" target="_blank">codyhouse.co</a></p>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="page__style home">
+  <div class="page__description">
+    <div id="home">
+
+    <HeroSection />
+
+  
+    </div>
+  </div>
+</div>
+
+{/* Page Transition - End */}
+      
+     
       <Footer />
 
       </div>
@@ -47,3 +127,4 @@ function App() {
 }
 
 export default App;
+

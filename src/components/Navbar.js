@@ -35,7 +35,7 @@ function Navbar() {
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
-{/*           
+           
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={() => window.location.replace("/#skills")}>
@@ -58,7 +58,14 @@ function Navbar() {
                 Testimonials
               </Link>
             </li>
-          </ul> */}
+            <button class="btn_nav projects_link">Projects</button>
+            <button class="btn_nav skills_link">Skills</button>
+            <button class="btn_nav home_link">Home</button>
+            <button class="btn_nav about_link">About</button>
+            <button class="btn_nav contact_link">Contact</button>
+
+
+          </ul> 
 
         </div>
       </nav>
