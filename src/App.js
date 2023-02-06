@@ -103,7 +103,7 @@ function App() {
 
 <div class="page__style home">
   <div class="page__description">
-    <div id="home">
+    <div id="home main-renderer-window" >
 
     <HeroSection />
 
@@ -115,7 +115,7 @@ function App() {
 {/* Page Transition - End */}
       
      
-      <Footer />
+      {/* <Footer /> */}
 
       </div>
       </div>

@@ -9,6 +9,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: #171515;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
@@ -23,7 +24,22 @@ body {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.hero-graphico-bottom img {
+  border-radius: 50%;
+  padding-top: 25px;
+}
+#home .main-renderer-window {
+  height: 100%;
+}
+.hero-container {
+  height: 100%;
+}
+.page__description {
+  height: 100%;
+}
+#home\ main-renderer-window {
+  height: 100%;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -57,7 +73,7 @@ body {
   display: none;
 }
 .page__style {
-  background: #6d326d;
+  background: #000000;
   font-family: OpenSans-Regular, sans-serif;
   position: fixed;
   top: 0;
@@ -69,6 +85,26 @@ body {
   margin: auto auto;
   overflow: Scroll;
   padding-left: 25%;
+}
+.skillbar {
+  background-color: #b5b5b5 !important;
+}
+#home\ main-renderer-window{
+  position: relative;
+}
+.hero-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 31%;
+  height: 100%;
+  background-color: #2f2f2f;
+}
+.hero-image img {
+  z-index: 11;
+  position: relative;
+  box-shadow: 4.5px 4.5px 5.9px rgba(0, 0, 0, 0.063), 12.5px 12.5px 16.3px rgba(0, 0, 0, 0.09), 30.1px 30.1px 39.2px rgba(0, 0, 0, 0.117), 100px 100px 130px rgba(0, 0, 0, 0.18);
 }
 .page__style .page__description {
   color: #fff;
@@ -115,27 +151,27 @@ body {
 /*  home
 -----------------------------------*/
 .home {
-  background: #5da9e9;
+  /* background: #5da9e9; */
 }
 /*  Projects
 -----------------------------------*/
 .projects {
-  background: #bd5de9;
+  /* background: #bd5de9; */
 }
 /*  Skills
 -----------------------------------*/
 .skills {
-  background: #5de974;
+  /* background: #5de974; */
 }
 /*  About
 -----------------------------------*/
 .about {
-  background: #fb9b33;
+  /* background: #fb9b33; */
 }
 /*  Contact
 -----------------------------------*/
 .contact {
-  background: #c9cdc0;
+  /* background: #c9cdc0; */
 }
 /*****************************************************************
 ~ Mobile media-queries (max-width: 767px)

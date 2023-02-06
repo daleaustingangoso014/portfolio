@@ -1,6 +1,7 @@
 .skills-main-section-container{
- 
-  background-color: #1a1c2a;
+  background-color: #1a1515;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 .skill-blimp-description p {
   font-size: 18px;

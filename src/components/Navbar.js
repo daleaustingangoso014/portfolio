@@ -38,33 +38,34 @@ function Navbar() {
            
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={() => window.location.replace("/#skills")}>
-                About
-              </Link>
+              <Link to='/' className='btn_nav home_link nav-links'>
+                Home
+              </Link> 
+              
             </li>
             <li className='nav-item'>
-              <Link
-                to='/'
-                className='nav-links'
-                onClick={() => window.location.replace("/#projects")}>
-                Projects
+            <Link to='/' className='btn_nav skills_link nav-links'>
+                Skills
               </Link>
             </li>
-            <li className='nav-item'>
+
+            
+            {/* <li className='nav-item'>
               <Link
                 to='/'
                 className='nav-links'
                 onClick={() => window.location.replace("/#testimonials")}>
                 Testimonials
               </Link>
-            </li>
+            </li> */}
+             
+             {/*            
             <button class="btn_nav projects_link">Projects</button>
             <button class="btn_nav skills_link">Skills</button>
             <button class="btn_nav home_link">Home</button>
             <button class="btn_nav about_link">About</button>
-            <button class="btn_nav contact_link">Contact</button>
-
-
+            <button class="btn_nav contact_link">Contact</button> 
+            */}
           </ul> 
 
         </div>
