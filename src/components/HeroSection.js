@@ -48,7 +48,7 @@ function HeroSection() {
       <div className='html-end custom-color-banner-codehide' data-aos="fade-right" data-aos-delay='7500'>{texthtml2}</div>
       </div>
        
-      <div className='hero-image column-inner test'>
+      <div className='hero-image column-inner test testgi'>
       
         <div className="hero-graphico" >
           <div className="hero-graphico-bottom">
