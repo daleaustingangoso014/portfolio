@@ -49,7 +49,7 @@ function SkillsSection() {
            <div className='skills-main-section-wrapper'>
            <div className='skills-main-section-inner'>
                
-           <div class="container skill-blimp"  data-aos="fade-right">
+           <div class="container skill-blimp"  data-aos="fade-up">
            <p class="small-tag-heading">Proficiency</p>    
            <h2>Technical Skills</h2>
            <SkillBar skills={skills} colors={colors} height={25}/>
@@ -59,7 +59,7 @@ function SkillsSection() {
        
            </div>
            
-    <div className='skill-blimp-description' data-aos="fade-left" >
+    <div className='skill-blimp-description' data-aos="fade-up" >
     <h2>About Me</h2>
     <p>
     A Web Developer with a proven ability to adapt in both self-starting and collaborative environments while staying focused on achieving high-quality results under strict deadlines. Experience in Responsive Web Design, Developing user interface, testing, and debugging. Proven ability in optimizing web functionalities that improve data retrieval and workflow efficiency.

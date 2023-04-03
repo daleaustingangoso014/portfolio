@@ -25,31 +25,39 @@ function App() {
 
    
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js" integrity="sha512-jq8sZI0I9Og0nnZ+CfJRnUzNSDKxr/5Bvha5bn7AHzTnRyxUfpUArMzfH++mwE/hb2efOo1gCAgI+1RMzf8F7g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <script>var stylesheet = "https://app.testdome.com/content/source/stylesheets/embed.css", link = document.createElement("link"); link.href = stylesheet, link.type = "text/css", link.rel = "stylesheet", link.media = "screen,print", document.getElementsByTagName("head")[0].appendChild(link);</script>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
    <Router>
       <div className="app">
         
+      <HeroSection />
+      <SkillsSection />
       
-      <div className="row">
+      {/* <div className="row">
       <div className="page-navigation column">
       
       
-      <Navbar />
+     
       </div>
-      <div className="page-content column">
+      <div className="page-content column"> */}
       
 
       {/* <HeroSection /> */}
       {/* <SkillsSection /> */}
       
 {/* Page Transition - Start */}
-<div class="page__style projects">
+{/* <Navbar /> */}
+
+
+{/* <div class="page__style projects">
   <div class="page__description">
     <div id="projects">
 
-    <HeroSection />
+    
 
     </div>
   </div>
@@ -59,7 +67,7 @@ function App() {
   <div class="page__description">
     <div id="skills">
       
-    <SkillsSection />
+    
 
     </div>
   </div>
@@ -106,19 +114,21 @@ function App() {
     <div id="home main-renderer-window" >
 
     <HeroSection />
+    
+    <SkillsSection />
 
   
     </div>
   </div>
-</div>
+</div> */}
 
 {/* Page Transition - End */}
       
      
       {/* <Footer /> */}
 
-      </div>
-      </div>
+      {/* </div>
+      </div> */}
 
       </div>
     </Router>
