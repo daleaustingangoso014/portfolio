@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom';
 
 function SkillsSection() {
     const skills = [
-
         {type: "Javascript", level: 75},
         {type: "PHP", level: 55},
         {type: "HTML", level: 75},

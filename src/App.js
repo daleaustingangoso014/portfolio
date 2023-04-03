@@ -13,7 +13,6 @@ import SkillsSection from './components/SkillsSection';
 import Footer from './components/Footer';
 
 function App() {
-
   
   useEffect(() => {
     AOS.init();
