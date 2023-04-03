@@ -7,7 +7,7 @@ import './HeroSection.css';
 function HeroSection() {
   
   var text = "<h1>";
-  var text2 = "</h2>";
+  var text2 = "</h1>";
   
   var texthtml = "<html>";
   var texthtml2 = "</html>";
